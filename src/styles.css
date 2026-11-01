@@ -95,7 +95,7 @@ a:focus-visible {
   color: #b6f6cd;
 }
 .brand-name {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
   border-left: 1px solid #39413c;
   padding-left: 16px;
@@ -104,7 +104,7 @@ a:focus-visible {
 .brand-name > span {
   display: block;
   color: #a3afa7;
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 1.7px;
   font-weight: 400;
 }
@@ -115,7 +115,7 @@ a:focus-visible {
 }
 .navigation a {
   color: #b8c2bb;
-  font-size: 12px;
+  font-size: 13px;
   padding-block: 12px;
   transition: color 0.15s;
 }
@@ -147,7 +147,7 @@ a:focus-visible {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.6;
   letter-spacing: 1.65px;
   color: #a4b0a8;
@@ -157,7 +157,7 @@ a:focus-visible {
 }
 .hero-eyebrow {
   margin-bottom: 24px;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 1.45px;
 }
 .small-cross {
@@ -175,7 +175,7 @@ a:focus-visible {
   color: #b6f6cd;
 }
 .hero-introduction {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.9;
   max-width: 435px;
   color: #aab7ae;
@@ -193,7 +193,7 @@ a:focus-visible {
   justify-content: center;
   gap: 23px;
   padding: 15px 20px;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
   border-radius: 4px;
   transition:
@@ -230,7 +230,7 @@ a:focus-visible {
   padding-inline: 22px;
   border-bottom: 1px solid #303a33;
   color: #a9b7ae;
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 1.2px;
 }
 .diagram-symbol {
@@ -265,7 +265,7 @@ a:focus-visible {
   border-radius: 5px;
   background: #1c2720;
   padding: 10px 13px;
-  font-size: 10px;
+  font-size: 12px;
   display: flex;
   align-items: center;
   gap: 9px;
@@ -280,7 +280,7 @@ a:focus-visible {
 .node-icon {
   color: #b6f6cd;
   font-family: var(--font-mono);
-  font-size: 15px;
+  font-size: 16px;
 }
 .system-core {
   display: flex;
@@ -300,7 +300,7 @@ a:focus-visible {
   box-shadow: 0 0 50px #9af4ba0c;
   color: #c6f9d9;
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.8;
   letter-spacing: 0.8px;
 }
@@ -347,7 +347,7 @@ a:focus-visible {
   background: #16241b;
   border-radius: 4px;
   padding: 13px;
-  font-size: 10px;
+  font-size: 12px;
   z-index: 2;
   color: #c3d4c9;
 }
@@ -372,7 +372,7 @@ a:focus-visible {
   right: 0;
   text-align: center;
   font-family: var(--font-mono);
-  font-size: 8px;
+  font-size: 11px;
   letter-spacing: 1.3px;
   color: #9baa9f;
 }
@@ -382,7 +382,7 @@ a:focus-visible {
   align-items: center;
   gap: 9px;
   color: #a6b8ad;
-  font-size: 10px;
+  font-size: 12px;
   border-top: 1px solid #303a33;
 }
 .focus-strip {
@@ -404,16 +404,16 @@ a:focus-visible {
 }
 .focus-number {
   color: #7d9a87;
-  font-size: 10px;
+  font-size: 12px;
 }
 .focus-item h2 {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 15px;
   margin-bottom: 7px;
 }
 .focus-item p {
   color: #98a69d;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.6;
 }
 .section {
@@ -431,7 +431,7 @@ a:focus-visible {
 }
 .section-description {
   color: #a2afa6;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.8;
   margin-top: 18px;
   max-width: 510px;
@@ -450,7 +450,7 @@ a:focus-visible {
 }
 .about-copy > p {
   color: #aebbb2;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.9;
 }
 .about-copy > p + p {
@@ -461,7 +461,7 @@ a:focus-visible {
   align-items: center;
   gap: 12px;
   color: #c6efd5;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.8;
 }
 .text-link:hover {
@@ -503,7 +503,7 @@ a:focus-visible {
   gap: 9px 7px;
 }
 .skill-group li {
-  font-size: 11px;
+  font-size: 12px;
   color: #bdc8c0;
   padding: 6px 9px;
   background: #1f2922;
@@ -520,7 +520,7 @@ a:focus-visible {
 .subtle-label {
   font-family: var(--font-mono);
   display: inline-block;
-  font-size: 8px;
+  font-size: 11px;
   letter-spacing: 1.5px;
   padding: 6px 9px;
   color: #b4c7bb;
@@ -533,7 +533,7 @@ a:focus-visible {
   margin-top: 17px;
 }
 .experience-content p {
-  font-size: 14px;
+  font-size: 15px;
   color: #a2afa6;
   line-height: 1.9;
   margin-top: 14px;
@@ -576,7 +576,7 @@ a:focus-visible {
   background: transparent;
   border: 1px solid #39453d;
   border-radius: 4px;
-  font-size: 11px;
+  font-size: 12px;
   padding: 10px 15px;
 }
 .project-filters button:hover {
@@ -615,7 +615,7 @@ a:focus-visible {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 7px;
+  font-size: 11px;
   letter-spacing: 1px;
   color: #a5b9ad;
 }
@@ -624,11 +624,11 @@ a:focus-visible {
   flex-direction: column;
   align-items: center;
   margin-top: 16px;
-  font-size: 10px;
+  font-size: 12px;
 }
 .code-muted {
   color: #a6b7ad;
-  font-size: 9px;
+  font-size: 11px;
 }
 .workflow-line {
   height: 20px;
@@ -643,7 +643,7 @@ a:focus-visible {
   background: #223c2c;
 }
 .code-result {
-  font-size: 9px;
+  font-size: 11px;
   color: #c2cebf;
   border: 1px solid #465c4d;
   padding: 7px 11px;
@@ -662,7 +662,7 @@ a:focus-visible {
   color: #a9bac7;
 }
 .contract-preview code {
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.6;
   color: #b1c5d6;
 }
@@ -693,17 +693,17 @@ a:focus-visible {
   color: #e0ddbf;
   border-radius: 3px;
   padding: 10px;
-  font-size: 10px;
+  font-size: 12px;
 }
 .pipeline-preview i {
   color: #c1bca6;
   font-style: normal;
-  font-size: 13px;
+  font-size: 14px;
 }
 .pipeline-preview small {
   width: 100%;
   text-align: center;
-  font-size: 8px;
+  font-size: 11px;
   color: #bbb89f;
   margin-top: 10px;
 }
@@ -715,7 +715,7 @@ a:focus-visible {
 }
 .project-type {
   color: #a3b6a9;
-  font-size: 7px;
+  font-size: 11px;
   letter-spacing: 0.9px;
   line-height: 1.8;
   margin-bottom: 15px;
@@ -741,7 +741,7 @@ a:focus-visible {
 }
 .project-description {
   color: #aab8ae;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.9;
   margin-top: 15px;
 }
@@ -753,7 +753,7 @@ a:focus-visible {
 }
 .project-highlights li {
   color: #afc0b5;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.7;
   padding-left: 14px;
   position: relative;
@@ -772,7 +772,7 @@ a:focus-visible {
 }
 .project-tags > span {
   color: #b3c0b8;
-  font-size: 9px;
+  font-size: 11px;
   padding: 4px 7px;
   border: 1px solid #3d4b42;
   border-radius: 3px;
@@ -781,7 +781,7 @@ a:focus-visible {
   padding-top: 21px;
   margin-top: 21px;
   border-top: 1px solid #303b33;
-  font-size: 11px;
+  font-size: 12px;
   justify-content: space-between;
 }
 .contact-section {
@@ -805,7 +805,7 @@ a:focus-visible {
 }
 .contact-grid p {
   color: #aab7ae;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.9;
   margin-top: 23px;
 }
@@ -838,7 +838,7 @@ a:focus-visible {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 13px;
+  font-size: 14px;
   color: #d3e1d8;
   padding-block: 8px;
 }
@@ -860,7 +860,7 @@ a:focus-visible {
 .site-footer p,
 .footer-note,
 .back-top {
-  font-size: 9px;
+  font-size: 11px;
   color: #a5b2a9;
 }
 .footer-note {
@@ -900,12 +900,12 @@ a:focus-visible {
     padding-left: 18px;
   }
   .hero-eyebrow {
-    font-size: 8px;
+    font-size: 11px;
     letter-spacing: 1px;
   }
   .diagram-input {
     padding: 9px;
-    font-size: 9px;
+    font-size: 11px;
   }
   .input-one {
     left: 5%;
@@ -924,26 +924,26 @@ a:focus-visible {
     font-size: 17px;
   }
   .project-type {
-    font-size: 6px;
+    font-size: 11px;
   }
   .project-tags {
     gap: 5px;
   }
   .project-tags > span {
-    font-size: 8px;
+    font-size: 11px;
   }
   .project-visual {
     padding: 13px;
   }
   .visual-caption {
-    font-size: 6px;
+    font-size: 11px;
   }
   .pipeline-preview {
     gap: 6px;
   }
   .pipeline-preview > span {
     padding: 7px;
-    font-size: 9px;
+    font-size: 11px;
   }
 }
 @media (max-width: 850px) {
@@ -966,24 +966,24 @@ a:focus-visible {
   .button {
     padding: 13px;
     gap: 13px;
-    font-size: 10px;
+    font-size: 12px;
   }
   .hero-introduction {
-    font-size: 13px;
+    font-size: 14px;
   }
   .system-diagram {
     margin-top: 12px;
   }
   .diagram-topline {
     padding-inline: 13px;
-    font-size: 7px;
+    font-size: 11px;
   }
   .system-diagram figcaption {
-    font-size: 8px;
+    font-size: 11px;
     padding-inline: 10px;
   }
   .diagram-output {
-    font-size: 8px;
+    font-size: 11px;
     gap: 7px;
     padding: 12px 9px;
   }
@@ -994,7 +994,7 @@ a:focus-visible {
     top: 49%;
     width: 144px;
     height: 68px;
-    font-size: 9px;
+    font-size: 11px;
   }
   .core-glyph {
     font-size: 30px;
@@ -1020,10 +1020,10 @@ a:focus-visible {
     padding-left: 16px;
   }
   .focus-item h2 {
-    font-size: 12px;
+    font-size: 13px;
   }
   .focus-item p {
-    font-size: 8px;
+    font-size: 11px;
   }
   .section {
     padding-block: 65px;
@@ -1036,42 +1036,42 @@ a:focus-visible {
     gap: 35px;
   }
   .about-copy > p {
-    font-size: 13px;
+    font-size: 14px;
   }
   .skill-group {
     padding: 23px 17px;
   }
   .skill-group h3 {
-    font-size: 14px;
+    font-size: 15px;
   }
   .skill-group li {
-    font-size: 10px;
+    font-size: 12px;
     padding: 5px 7px;
   }
   .projects-grid {
     grid-template-columns: 1fr 1fr;
   }
   .project-type {
-    font-size: 7px;
+    font-size: 11px;
   }
   .project-tags > span {
-    font-size: 9px;
+    font-size: 11px;
   }
   .project-visual {
     padding: 16px;
   }
   .visual-caption {
-    font-size: 7px;
+    font-size: 11px;
   }
   .pipeline-preview {
     gap: 10px;
   }
   .pipeline-preview > span {
     padding: 10px;
-    font-size: 10px;
+    font-size: 12px;
   }
   .section-toprow > .text-link {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 @media (max-width: 640px) {
@@ -1087,10 +1087,10 @@ a:focus-visible {
   }
   .brand-name {
     display: block;
-    font-size: 12px;
+    font-size: 13px;
   }
   .brand-name > span {
-    font-size: 8px;
+    font-size: 11px;
   }
   .brand-mark {
     font-size: 32px;
@@ -1100,7 +1100,7 @@ a:focus-visible {
     align-items: center;
     gap: 14px;
     color: #d5e5da;
-    font-size: 12px;
+    font-size: 13px;
     padding: 12px 0 12px 14px;
   }
   .menu-toggle > span {
@@ -1115,7 +1115,7 @@ a:focus-visible {
     border-top: 1px solid #303b33;
   }
   .navigation a {
-    font-size: 12px;
+    font-size: 13px;
   }
   .navigation .nav-github {
     padding-left: 0;
@@ -1136,7 +1136,7 @@ a:focus-visible {
     gap: 38px;
   }
   .hero-eyebrow {
-    font-size: 8px;
+    font-size: 11px;
     letter-spacing: 0.85px;
     margin-bottom: 22px;
   }
@@ -1145,7 +1145,7 @@ a:focus-visible {
     letter-spacing: -2.7px;
   }
   .hero-introduction {
-    font-size: 14px;
+    font-size: 15px;
     max-width: 440px;
     margin-top: 24px;
   }
@@ -1154,7 +1154,7 @@ a:focus-visible {
     gap: 9px;
   }
   .button {
-    font-size: 11px;
+    font-size: 12px;
     padding: 14px 15px;
     gap: 15px;
   }
@@ -1163,14 +1163,14 @@ a:focus-visible {
   }
   .diagram-topline {
     height: 48px;
-    font-size: 8px;
+    font-size: 11px;
     padding-inline: 20px;
   }
   .diagram-canvas {
     height: 310px;
   }
   .diagram-input {
-    font-size: 10px;
+    font-size: 12px;
     padding: 10px 13px;
   }
   .input-one {
@@ -1185,7 +1185,7 @@ a:focus-visible {
   }
   .diagram-output {
     top: 230px;
-    font-size: 9px;
+    font-size: 11px;
   }
   .connection-three {
     top: 184px;
@@ -1193,10 +1193,10 @@ a:focus-visible {
   }
   .system-diagram figcaption {
     padding: 15px;
-    font-size: 9px;
+    font-size: 11px;
   }
   .canvas-coordinate {
-    font-size: 7px;
+    font-size: 11px;
   }
   .focus-strip {
     grid-template-columns: 1fr;
@@ -1213,11 +1213,11 @@ a:focus-visible {
     border-top: 1px solid #29342c;
   }
   .focus-item h2 {
-    font-size: 13px;
+    font-size: 14px;
     margin-bottom: 4px;
   }
   .focus-item p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .section {
     padding-block: 53px;
@@ -1233,17 +1233,17 @@ a:focus-visible {
     margin-top: 17px;
   }
   .section-description {
-    font-size: 12px;
+    font-size: 13px;
   }
   .eyebrow {
-    font-size: 9px;
+    font-size: 11px;
     letter-spacing: 1.3px;
   }
   .about-copy {
     padding-top: 0;
   }
   .about-copy > p {
-    font-size: 14px;
+    font-size: 15px;
   }
   .about-copy .text-link {
     margin-top: 22px;
@@ -1267,14 +1267,14 @@ a:focus-visible {
     margin-bottom: 18px;
   }
   .skill-group li {
-    font-size: 11px;
+    font-size: 12px;
     padding: 6px 9px;
   }
   .experience-content {
     padding-left: 23px;
   }
   .experience-content p {
-    font-size: 13px;
+    font-size: 14px;
   }
   .section-toprow {
     flex-direction: column;
@@ -1282,7 +1282,7 @@ a:focus-visible {
     gap: 16px;
   }
   .section-toprow > .text-link {
-    font-size: 11px;
+    font-size: 12px;
   }
   .project-filters {
     margin-top: 27px;
@@ -1290,7 +1290,7 @@ a:focus-visible {
     margin-bottom: 24px;
   }
   .project-filters button {
-    font-size: 10px;
+    font-size: 12px;
     padding: 10px 11px;
   }
   .projects-grid {
@@ -1301,7 +1301,7 @@ a:focus-visible {
     height: 216px;
   }
   .visual-caption {
-    font-size: 7px;
+    font-size: 11px;
   }
   .project-body {
     padding: 25px;
@@ -1310,19 +1310,19 @@ a:focus-visible {
     font-size: 20px;
   }
   .project-type {
-    font-size: 7px;
-  }
-  .project-description {
-    font-size: 13px;
-  }
-  .project-highlights li {
     font-size: 11px;
   }
+  .project-description {
+    font-size: 14px;
+  }
+  .project-highlights li {
+    font-size: 12px;
+  }
   .project-tags > span {
-    font-size: 10px;
+    font-size: 12px;
   }
   .project-source {
-    font-size: 12px;
+    font-size: 13px;
   }
   .contact-grid {
     align-items: end;
@@ -1333,7 +1333,7 @@ a:focus-visible {
     letter-spacing: -1px;
   }
   .contact-grid p {
-    font-size: 12px;
+    font-size: 13px;
     margin-top: 20px;
   }
   .desktop-break {
@@ -1355,7 +1355,7 @@ a:focus-visible {
     margin-top: 27px;
   }
   .contact-links a {
-    font-size: 13px;
+    font-size: 14px;
   }
   .site-footer {
     gap: 15px;
@@ -1373,7 +1373,7 @@ a:focus-visible {
   }
   .site-footer p,
   .back-top {
-    font-size: 8px;
+    font-size: 11px;
   }
 }
 @media (prefers-reduced-motion: reduce) {
