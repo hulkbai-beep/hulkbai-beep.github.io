@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hulkbai-beep.github.io/sitemap.xml

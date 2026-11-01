@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#101312"/>
+  <path d="M64 88h1072M64 546h1072" stroke="#3d4d42"/>
+  <text x="64" y="65" font-family="Arial,sans-serif" font-size="33" font-weight="700" letter-spacing="-2" fill="#edf2ee">tb<tspan fill="#b6f6cd">.</tspan></text>
+  <text x="1136" y="61" text-anchor="end" font-family="Consolas,monospace" font-size="15" fill="#aebfb4">hulkbai-beep.github.io</text>
+  <text x="64" y="173" font-family="Consolas,monospace" font-size="18" fill="#b6f6cd" letter-spacing="3">TIANYANG BAI / AI ENGINEER</text>
+  <text x="60" y="278" font-family="Arial,sans-serif" font-size="78" letter-spacing="-3" fill="#edf2ee">Turning data into</text>
+  <text x="60" y="372" font-family="Arial,sans-serif" font-size="88" letter-spacing="-3" fill="#b6f6cd">useful intelligence.</text>
+  <text x="64" y="452" font-family="Arial,sans-serif" font-size="23" fill="#acbeb2">AI Engineering · Agentic Systems · Data Engineering</text>
+  <circle cx="75" cy="586" r="5" fill="#b6f6cd"/>
+  <text x="96" y="592" font-family="Consolas,monospace" font-size="16" fill="#aebfb4">Public projects. Thoughtful engineering.</text>
+</svg>
