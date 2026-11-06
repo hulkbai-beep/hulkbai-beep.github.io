@@ -589,7 +589,7 @@ a:focus-visible {
 }
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 20px;
 }
 .project-card {
@@ -672,6 +672,39 @@ a:focus-visible {
 }
 .contract-preview code > span {
   color: #839baf;
+}
+.visual-digest {
+  background: #1f1d26;
+}
+.visual-digest .visual-caption {
+  color: #bfb8d3;
+}
+.digest-preview {
+  margin-top: 16px;
+  margin-left: 8px;
+}
+.digest-preview > .code-muted {
+  display: block;
+  margin-bottom: 12px;
+  color: #bfb8d3;
+}
+.digest-preview ol {
+  display: grid;
+  gap: 9px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 12px;
+  color: #d6d0e8;
+}
+.digest-preview li {
+  border-left: 1px solid #5f5a75;
+  padding: 3px 0 3px 12px;
+}
+.digest-preview b {
+  color: #bdedce;
+  font-weight: 400;
+  margin-right: 6px;
 }
 .visual-pipeline {
   background: #25241d;

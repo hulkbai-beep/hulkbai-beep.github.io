@@ -17,21 +17,37 @@ function ProjectVisual({ kind }: { kind: Project['visual'] }) {
           <span className="workflow-line" />
           <span className="code-chip">compute_metrics()</span>
           <span className="workflow-line" />
-          <span className="code-result">{'{ signals, indicators }'}</span>
+          <span className="code-result">{'{ trend, levels, conflicts }'}</span>
         </div>
       )}
       {kind === 'fundamental' && (
         <div className="contract-preview">
-          <span className="code-muted">valuation.contract.json</span>
+          <span className="code-muted">fa-2.0.facts.json</span>
           <code>
             <span>{'{'}</span>
             <br />
-            &nbsp; "fundamentals": <b>{'{ … }'}</b>,<br />
+            &nbsp; "metrics": <b>{'{ … }'}</b>,<br />
             &nbsp; "valuation": <b>{'{ … }'}</b>,<br />
-            &nbsp; "macro": <b>{'{ … }'}</b>
+            &nbsp; "models": <b>{'{ … }'}</b>
             <br />
             <span>{'}'}</span>
           </code>
+        </div>
+      )}
+      {kind === 'digest' && (
+        <div className="digest-preview">
+          <span className="code-muted">weekly-ai-digest · run</span>
+          <ol>
+            <li>
+              <b>✓</b> read sources
+            </li>
+            <li>
+              <b>✓</b> summarize → items.json
+            </li>
+            <li>
+              <b>✓</b> render → README, digest
+            </li>
+          </ol>
         </div>
       )}
       {kind === 'pipeline' && (
@@ -57,7 +73,7 @@ export function Projects() {
     <section id="projects" className="section shell">
       <div className="section-toprow">
         <SectionHeading number="04" label="SELECTED WORK" title="Built to be explored.">
-          Public projects in AI-assisted analytics and dependable data workflows.
+          Public projects in AI-assisted analytics, agent workflows, and dependable data pipelines.
         </SectionHeading>
         <a className="text-link" href="https://github.com/hulkbai-beep?tab=repositories">
           All repositories

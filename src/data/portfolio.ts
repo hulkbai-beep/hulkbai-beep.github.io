@@ -56,7 +56,12 @@ export type Experience = {
 // Add roles only after confirming a public résumé or other public source.
 export const experience: Experience[] = []
 
-export const projectCategories = ['All projects', 'AI & analytics', 'Data pipelines'] as const
+export const projectCategories = [
+  'All projects',
+  'AI & analytics',
+  'Agent workflows',
+  'Data pipelines',
+] as const
 export type ProjectCategory = (typeof projectCategories)[number]
 
 export type Project = {
@@ -69,7 +74,7 @@ export type Project = {
   highlights: string[]
   technologies: string[]
   source: string
-  visual: 'technical' | 'fundamental' | 'pipeline'
+  visual: 'technical' | 'fundamental' | 'digest' | 'pipeline'
 }
 
 export const projects: Project[] = [
@@ -80,15 +85,15 @@ export const projects: Project[] = [
     category: 'AI & analytics',
     type: 'CLAUDE SKILL / MARKET ANALYTICS',
     description:
-      'From market data to technical insight. A Claude skill combining deterministic Python metrics, interactive charts, and AI-assisted interpretation.',
+      'Technical analysis of a US stock or ETF from daily market data. Python computes every number; Claude describes each reading and where the readings disagree, with no scores or ratings.',
     highlights: [
       'Separates numerical computation from AI interpretation',
-      'Versioned JSON contracts for downstream tools',
-      'Offline tests for analysis workflows',
+      'NYSE trading calendar, ex-dividend gaps, and scheduled macro events',
+      'Versioned JSON contract and offline pytest suite',
     ],
-    technologies: ['Python', 'pandas', 'NumPy', 'JSON Schema'],
+    technologies: ['Python', 'pandas', 'NumPy', 'JSON Schema', 'pytest'],
     source:
-      'https://github.com/hulkbai-beep/fmp-technical-analysis/blob/145a174dff1525828a816ffbebe87de83a91d16e/README.md',
+      'https://github.com/hulkbai-beep/fmp-technical-analysis/blob/a7dc79e50a0346308966ef51436d285de0dc92b3/README.md',
     visual: 'technical',
   },
   {
@@ -98,16 +103,34 @@ export const projects: Project[] = [
     category: 'AI & analytics',
     type: 'PYTHON TOOLKIT / FINANCIAL ANALYTICS',
     description:
-      'A toolkit for US stock fundamentals, valuation, and macro context. Available as a Claude skill, command line workflow, and bilingual local interface.',
+      'US stock fundamentals, standard valuation models, and macro context, presented as facts rather than verdicts. Available as a Claude skill, command line workflow, and bilingual local interface.',
     highlights: [
-      'DCF and reverse DCF valuation workflows',
-      'Cached API client with rate limiting',
-      'Structured outputs and offline tests',
+      'DCF and reverse DCF with the discount rate tied to Treasury yields',
+      'One facts-only JSON document for downstream tools',
+      'Cached, rate-limited API client with offline tests',
     ],
     technologies: ['Python', 'REST APIs', 'JSON Schema', 'unittest'],
     source:
-      'https://github.com/hulkbai-beep/fmp-fundamental-analysis/blob/aa273a74a6c5c37561d3f736661bc11f400bf327/README.en.md',
+      'https://github.com/hulkbai-beep/fmp-fundamental-analysis/blob/5dea2fc583449a7e4302292749b50ac123d04ea7/README.en.md',
     visual: 'fundamental',
+  },
+  {
+    id: 'ai-engineer-enhance',
+    name: 'AI Engineer Resource Tracker',
+    repository: 'https://github.com/hulkbai-beep/ai-engineer-enhance',
+    category: 'Agent workflows',
+    type: 'CLAUDE SKILL / AGENT WORKFLOW',
+    description:
+      'A weekly agent workflow that reads curated LLM and agent sources, writes categorized summaries to a validated JSON store, and publishes a resource table and weekly digest.',
+    highlights: [
+      'Per-source read windows with overlap and deduplication',
+      'Relevance rubric anchored to real examples',
+      'Monthly snapshot of skills named in AI engineer job postings',
+    ],
+    technologies: ['Claude Skills', 'Python', 'JSON', 'unittest'],
+    source:
+      'https://github.com/hulkbai-beep/ai-engineer-enhance/blob/c8535ccae63cfa21977f96eaaeaaf4a0dc50e699/.claude/skills/weekly-ai-digest/SKILL.md',
+    visual: 'digest',
   },
   {
     id: 'factset-earnings-insight-pdf-extractor',

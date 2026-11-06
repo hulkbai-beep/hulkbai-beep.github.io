@@ -12,7 +12,7 @@ test('portfolio renders without hydration errors and exposes search metadata', a
   await expect(page.getByRole('heading', { level: 1 })).toHaveText(
     'Turning datainto usefulintelligence.',
   )
-  await expect(page.locator('#projects article')).toHaveCount(3)
+  await expect(page.locator('#projects article')).toHaveCount(4)
   for (const id of ['about', 'skills', 'experience', 'projects', 'contact']) {
     await expect(page.locator(`#${id}`)).toBeVisible()
   }
@@ -105,8 +105,13 @@ test('project filtering updates results and preserves repository destinations', 
     'href',
     'https://github.com/hulkbai-beep/factset-earnings-insight-pdf-extractor',
   )
+  await filters.getByRole('button', { name: 'Agent workflows', exact: true }).click()
+  await expect(page.locator('#projects article')).toHaveCount(1)
+  await expect(
+    page.getByRole('heading', { name: 'AI Engineer Resource Tracker' }).getByRole('link'),
+  ).toHaveAttribute('href', 'https://github.com/hulkbai-beep/ai-engineer-enhance')
   await filters.getByRole('button', { name: 'All projects', exact: true }).click()
-  await expect(page.locator('#projects article')).toHaveCount(3)
+  await expect(page.locator('#projects article')).toHaveCount(4)
 })
 
 test('layouts pass automated accessibility checks and fit narrow screens', async ({
@@ -139,7 +144,7 @@ test('pre-rendered content and navigation remain usable without JavaScript', asy
   const page = await context.newPage()
   await page.goto('http://127.0.0.1:4173/')
   await expect(page.getByRole('heading', { level: 1 })).toBeVisible()
-  await expect(page.locator('#projects article')).toHaveCount(3)
+  await expect(page.locator('#projects article')).toHaveCount(4)
   await expect(
     page.locator('#contact').getByRole('link', { name: 'hulkbai@gmail.com' }),
   ).toBeVisible()
